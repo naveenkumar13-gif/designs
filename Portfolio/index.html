@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
@@ -93,47 +97,267 @@
       </div>
     </section>
     <section class="mt-32 max-xl:mt-16 max-lg:mt-10 max-md:mt-5">
-      <h1 class="text-center text-4xl my-10">Latest work</h1>
+      <h1 class="text-center text-4xl my-10 font-bold">Latest work</h1>
       <div
         class="flex items-center gap-10 justify-between max-md:flex-col max-md:gap-8"
       >
-        <div class="flex flex-col gap-2 max-md:text-center max-md:w-1/2 m-auto">
+        <div
+          class="flex flex-col gap-2 max-md:text-center max-md:w-[80%] m-auto"
+        >
           <img src="./assets//Image.png" alt="" />
-          <h2>Project title</h2>
+          <h2 class="text-xl font-bold">Project title</h2>
           <p>UI, Art drection</p>
         </div>
-        <div class="flex flex-col gap-2 max-md:text-center max-md:w-1/2 m-auto">
+        <div
+          class="flex flex-col gap-2 max-md:text-center max-md:w-[80%] m-auto"
+        >
           <img src="./assets//Image (1).png" alt="" />
-          <h2>Project title</h2>
+          <h2 class="text-xl font-bold">Project title</h2>
           <p>UI, Art drection</p>
         </div>
-        <div class="flex flex-col gap-2 max-md:text-center max-md:w-1/2 m-auto">
+        <div
+          class="flex flex-col gap-2 max-md:text-center max-md:w-[80%] m-auto"
+        >
           <img src="./assets//Image (2).png" alt="" />
-          <h2>Project title</h2>
+          <h2 class="text-xl font-bold">Project title</h2>
           <p>UI, Art drection</p>
         </div>
-        <div class="flex flex-col gap-2 max-md:text-center max-md:w-1/2 m-auto">
+        <div
+          class="flex flex-col gap-2 max-md:text-center max-md:w-[80%] m-auto"
+        >
           <img src="./assets//Image (3).png" alt="" />
-          <h2>Project title</h2>
+          <h2 class="text-xl font-bold">Project title</h2>
           <p>UI, Art drection</p>
         </div>
       </div>
       <div class="flex items-center gap-10 max-md:flex-col max-md:gap-8 my-5">
         <div
-          class="w-full h-[400px] flex flex-col gap-2 max-md:text-center max-md:w-1/2 m-auto"
+          class="w-full h-[400px] flex flex-col gap-2 max-md:text-center max-md:w-[80%] m-auto"
+          data-aos="fade-down-right"
         >
           <img src="./assets/Image (7).png" alt="" class="w-full h-full" />
-          <h2>Project title</h2>
+          <h2 class="text-xl font-bold">Project title</h2>
           <p>UI, Art drection</p>
         </div>
         <div
-          class="w-full h-[400px] flex flex-col gap-2 max-md:text-center max-md:w-1/2 m-auto"
+          class="w-full h-[400px] flex flex-col gap-2 max-md:text-center max-md:w-[80%] m-auto"
+          data-aos="fade-down-left"
         >
           <img src="./assets//Image (8).png" alt="" class="w-full h-full" />
-          <h2>Project title</h2>
+          <h2 class="text-xl font-bold">Project title</h2>
           <p>UI, Art drection</p>
         </div>
       </div>
     </section>
+    <section
+      class="mt-32 max-xl:mt-16 max-lg:mt-10 max-md:mt-5 flex flex-col gap-8"
+    >
+      <h1 class="text-center text-4xl my-10 font-bold">Testimonial</h1>
+      <div class="flex justify-between items-center gap-8 max-lg:flex-col">
+        <div class="flex flex-col gap-4 bg-[#F3F3F3] p-8 flex-grow">
+          <p
+            class="text-xl font-bold leading-relaxed tracking-wide mb-14 max-xl:mb-10 max-lg:mb-8 max-md:mb-4"
+          >
+            This is a template Figma file, turned into code using Anima. Learn
+            more at AnimaApp.com
+          </p>
+          <div>
+            <div class="flex gap-4">
+              <div class="w-[50px]">
+                <img src="./assets/Client Image.png" alt="" class="w-full" />
+              </div>
+              <div class="flex flex-col gap-4">
+                <img src="./assets/Stars.png" alt="" />
+                <div>
+                  <p class="text-xl font-bold tracking-wide">Gemma Nolen</p>
+                  <p>Google</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4 bg-[#F3F3F3] p-8 flex-grow">
+          <p
+            class="text-xl font-bold leading-relaxed tracking-wide mb-14 max-xl:mb-10 max-lg:mb-8 max-md:mb-4"
+          >
+            This is a template Figma file, turned into code using Anima. Learn
+            more at AnimaApp.com
+          </p>
+          <div>
+            <div class="flex gap-4">
+              <div class="w-[50px]">
+                <img src="./assets/Client Image.png" alt="" class="w-full" />
+              </div>
+              <div class="flex flex-col gap-4">
+                <img src="./assets/Stars.png" alt="" />
+                <div>
+                  <p class="text-xl font-bold tracking-wide">Gemma Nolen</p>
+                  <p>Google</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4 bg-[#F3F3F3] p-8 flex-grow">
+          <p
+            class="text-xl font-bold leading-relaxed tracking-wide mb-14 max-xl:mb-10 max-lg:mb-8 max-md:mb-4"
+          >
+            This is a template Figma file, turned into code using Anima. Learn
+            more at AnimaApp.com
+          </p>
+          <div>
+            <div class="flex gap-4">
+              <div class="w-[50px]">
+                <img src="./assets/Client Image.png" alt="" class="w-full" />
+              </div>
+              <div class="flex flex-col gap-4">
+                <img src="./assets/Stars.png" alt="" />
+                <div>
+                  <p class="text-xl font-bold tracking-wide">Gemma Nolen</p>
+                  <p>Google</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4 bg-[#F3F3F3] p-8 flex-grow">
+          <p
+            class="text-xl font-bold leading-relaxed tracking-wide mb-14 max-xl:mb-10 max-lg:mb-8 max-md:mb-4"
+          >
+            This is a template Figma file, turned into code using Anima. Learn
+            more at AnimaApp.com
+          </p>
+          <div>
+            <div class="flex gap-4">
+              <div class="w-[50px]">
+                <img src="./assets/Client Image.png" alt="" class="w-full" />
+              </div>
+              <div class="flex flex-col gap-4">
+                <img src="./assets/Stars.png" alt="" />
+                <div>
+                  <p class="text-xl font-bold tracking-wide">Gemma Nolen</p>
+                  <p>Google</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-between items-center gap-8 max-lg:flex-col">
+        <div class="flex flex-col gap-4 bg-[#F3F3F3] p-8 flex-grow">
+          <p
+            class="text-xl font-bold leading-relaxed tracking-wide mb-14 max-xl:mb-10 max-lg:mb-8 max-md:mb-4"
+          >
+            This is a template Figma file, turned into code using Anima. Learn
+            more at AnimaApp.com
+          </p>
+          <div>
+            <div class="flex gap-4">
+              <div class="w-[50px]">
+                <img src="./assets/Client Image.png" alt="" class="w-full" />
+              </div>
+              <div class="flex flex-col gap-4">
+                <img src="./assets/Stars.png" alt="" />
+                <div>
+                  <p class="text-xl font-bold tracking-wide">Gemma Nolen</p>
+                  <p>Google</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4 bg-[#F3F3F3] p-8 flex-grow">
+          <p
+            class="text-xl font-bold leading-relaxed tracking-wide mb-14 max-xl:mb-10 max-lg:mb-8 max-md:mb-4"
+          >
+            This is a template Figma file, turned into code using Anima. Learn
+            more at AnimaApp.com
+          </p>
+          <div>
+            <div class="flex gap-4">
+              <div class="w-[50px]">
+                <img src="./assets/Client Image.png" alt="" class="w-full" />
+              </div>
+              <div class="flex flex-col gap-4">
+                <img src="./assets/Stars.png" alt="" />
+                <div>
+                  <p class="text-xl font-bold tracking-wide">Gemma Nolen</p>
+                  <p>Google</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="my-32 max-xl:my-16 max-lg:my-10 max-md:my-8">
+      <div
+        class="flex justify-between items-center max-lg:flex-col max-lg:gap-10"
+      >
+        <div class="flex flex-col gap-8 w-1/2 max-lg:w-full">
+          <h2 class="text-5xl font-bold">Lets work together</h2>
+          <p class="text-xl leading-relaxed tracking-wide">
+            This is a template Figma file, turned into code using Anima. Learn
+            more at AnimaApp.com This is a template Figma file, turned into code
+            using Anima. Learn more at AnimaApp.com
+          </p>
+          <div class="flex gap-8 text-3xl">
+            <ion-icon
+              name="logo-discord"
+              class="hover:rotate-45 duration-500"
+            ></ion-icon>
+            <ion-icon
+              name="logo-facebook"
+              class="hover:rotate-45 duration-500"
+            ></ion-icon>
+            <ion-icon
+              name="logo-dribbble"
+              class="hover:rotate-45 duration-500"
+            ></ion-icon>
+            <ion-icon
+              name="logo-instagram"
+              class="hover:rotate-45 duration-500"
+            ></ion-icon>
+            <ion-icon
+              name="logo-behance"
+              class="hover:rotate-45 duration-500"
+            ></ion-icon>
+          </div>
+        </div>
+        <div
+          class="flex justify-between flex-auto max-lg:w-[80%] max-md:w-full"
+        >
+          <form class="flex flex-col gap-6 flex-grow">
+            <input
+              type="text"
+              placeholder="Name"
+              class="p-4 bg-[#f3f3f3] outline-none w-[80%]"
+            />
+            <input
+              type="text"
+              placeholder="Email"
+              class="p-4 bg-[#f3f3f3] outline-none w-[80%]"
+            />
+            <button
+              class="w-[250px] bg-gray-950 text-white py-6 text-2xl max-xl:py-4 max-lg:w-[200px] max-md:py-2 my-4 max-sm:w-[150px]"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
